@@ -6,4 +6,13 @@ on line number 940 paste this line --> extension=php_mongodb.dll
 save it 
 then restart you pc/laptop 
 open my code in xampp-->htdocs-->folder and run it
-the create a 
+the create a "composer.json" file
+in this file code is ==>
+{
+    "require": {
+        "mongodb/mongodb": "^1.11"
+    }
+}
+
+on Terminal run this command --> composer install
+and done you code is run 
